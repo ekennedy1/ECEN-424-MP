@@ -45,7 +45,7 @@ public class Main {
                     } catch (NumberFormatException e) {
                         break;
                     }
-                    System.out.println("The sum of " + num3 + " and " + num4 + " is " + mycalc.subtraction(f3,f4));
+                    System.out.println("The difference of " + num3 + " and " + num4 + " is " + mycalc.subtraction(f3,f4));
                     break;
                 case "M":
                     Scanner sc5 = new Scanner(System.in);
@@ -62,7 +62,7 @@ public class Main {
                     } catch (NumberFormatException e) {
                         break;
                     }
-                    System.out.println("The sum of " + num5 + " and " + num6 + " is " + mycalc.multiplication(f5,f6));
+                    System.out.println("The product of " + num5 + " and " + num6 + " is " + mycalc.multiplication(f5,f6));
                     break;
                 case "Q":
                     stop = false;
